@@ -275,7 +275,7 @@ export default function ScreenRecording() {
 
   return (
     <article>
-      <h1>Screen recording demo</h1>
+      {/* <h1>Screen recording demo</h1> */}
       <dialog open={status === 'acquiring_media'}>
         Waiting for screen recording authorization
       </dialog>

@@ -52,7 +52,7 @@ var options = {
     filename: '[name].bundle.js',
     publicPath: ASSET_PATH,
   },
-  module: {
+  module: {    
     rules: [
       {
         // look for .css or .scss files
